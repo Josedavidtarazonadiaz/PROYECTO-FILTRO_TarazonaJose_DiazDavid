@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    font-family: "Aldrich", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white; 
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #6acfc7; 
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+article {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.article-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article p {
+    font-size: 1em;
+    margin: 0; /* Remove margins to align with the button */
+}
+
+article .Precio {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 20px 0 0;
+}
+
+article button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6acfc7;;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+article button:hover {
+    background-color: #5fbbb3e3;;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+}
+
+footer .nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .nav a img.b {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    .article-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer .nav a img.b {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    article h3 {
+        font-size: 1.2em;
+    }
+
+    article p {
+        font-size: 0.9em;
+    }
+
+    article .Precio {
+        font-size: 1.2em;
+    }
+
+    article button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .article-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}

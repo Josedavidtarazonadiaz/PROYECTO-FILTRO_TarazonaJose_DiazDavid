@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Aldrich", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6acfc7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #6acfc7;
+}
+
+input[type="submit"] {
+    background-color: #6acfc7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4faaa1;
+}
+
+input[type="submit"]:hover {
+    background-color: #4faaa1;
+}

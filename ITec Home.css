@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    font-family: "Aldrich", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white; 
+    overflow-y: scroll; 
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header .buscador {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+header .buscador input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header nav a img {
+    width: 30px;
+    height: 30px;
+}
+
+section {
+    background-color: white;
+    padding-top: 80px; 
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #6acfc7;
+    padding: 20px;
+    color: white;
+    margin-top: 80px; 
+}
+
+article h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto1, .producto2 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto1 img, .producto2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Nombre-Procuto-1, .Nombre-Procuto-2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.Price-1, .Price-2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #6acfc7;
+}
+
+.producto1 button, .producto2 button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6acfc7;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.producto1 button:hover, .producto2 button:hover {
+    background-color: #5dbdb5d2;
+}
+
+footer.Pie-pagina {
+    background-color: #6acfc7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+footer .nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+}
+
+footer .nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .nav a img.b {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    header .logo img {
+        max-width: 80px;
+    }
+
+    header .buscador {
+        margin: 0 10px;
+    }
+
+    .producto1, .producto2 {
+        margin: 10px auto;
+        max-width: calc(50% - 20px);
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    footer .nav a img.b {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo img {
+        max-width: 60px;
+    }
+
+    header .buscador {
+        margin: 0 5px;
+    }
+
+    .producto1, .producto2 {
+        margin: 10px auto;
+        max-width: calc(100% - 20px);
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    footer .nav a img.b {
+        width: 20px;
+        height: 20px;
+    }
+}
