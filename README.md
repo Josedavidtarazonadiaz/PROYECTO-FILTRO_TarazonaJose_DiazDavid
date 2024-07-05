@@ -3,7 +3,7 @@
 La pagina se basa en un sitio web para vender productos tecnologicos como celulares, auriculares tecnologicos, ademas de vender accesorios para aquellos dispositivos.
 
 ## Tabla de contenido
-```markdown
+
 | Indice | Nombre                 | 
 |--------|------------------------|
 |   1    | Instalacion            | 
