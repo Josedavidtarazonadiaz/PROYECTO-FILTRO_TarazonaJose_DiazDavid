@@ -10,8 +10,6 @@ La pagina se basa en un sitio web para vender productos tecnologicos como celula
 |   2    | Heramientas utilizadas |
 |   3    | Estado del proyecto    |
 
-```
-
 
 ## Instalacion
 1. Se Debe descargar el zip del programa
