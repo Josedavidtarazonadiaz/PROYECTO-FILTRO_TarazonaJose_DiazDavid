@@ -4,11 +4,11 @@ La pagina se basa en un sitio web para vender productos tecnologicos como celula
 
 ## Tabla de contenido
 ```markdown
-| Indice | Nombre | 
-|--------|--------|
-| 1 | Instalacion | 
-| 2 | Heramientas utilizadas |
-| 3 | Estado del proyecto |
+| Indice | Nombre                 | 
+|--------|------------------------|
+|   1    | Instalacion            | 
+|   2    | Heramientas utilizadas |
+|   3    | Estado del proyecto    |
 
 ```
 
